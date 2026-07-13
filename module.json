@@ -1,0 +1,38 @@
+{
+  "authors": [{
+    "name": "Hannah"
+  }],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "url": "https://github.com/Harubex/katie-css-fix",
+  "download": "https://github.com/Harubex/katie-css-fix/releases/download/module.zip",
+  "id": "katie-css-fix",
+  "languages": [],
+  "relationships": {
+    "flags": {},
+    "requires": [],
+    "recommends": [],
+    "conflicts": [],
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/pf2e/master/system.pf2e.json",
+        "compatibility": {
+          "minimum": "8.0.0",
+          "verified": "8"
+        },
+        "flags": {}
+      }
+    ]
+  },
+  "scripts": [],
+  "styles": [
+    "./styles/custom.css"
+  ],
+  "title": "Katie's CSS Fix",
+  "version": "1.0.0",
+  "description": "The silly styles needed to overwrite the lame chat padding by the pf2e hud module."
+}

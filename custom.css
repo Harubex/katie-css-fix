@@ -1,0 +1,6 @@
+/* Gets rid of the shitty padding from the pf2e hud module */
+ul.chat-log.plain, ol.chat-log.plain {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
